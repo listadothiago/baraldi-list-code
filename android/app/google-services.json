@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "382142880602",
+    "project_id": "baraldilist",
+    "storage_bucket": "baraldilist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382142880602:android:bc09ea76015ac37b927163",
+        "android_client_info": {
+          "package_name": "com.th14g0.baraldilist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382142880602-09rgnevg3f5j3v5a2g9tgjgnjgdup6v9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHksBkp2MbLztLIdeDSPAlgVTS0qrX2h0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382142880602-09rgnevg3f5j3v5a2g9tgjgnjgdup6v9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
