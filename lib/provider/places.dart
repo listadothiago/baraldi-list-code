@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:baraldilist/data/dummy_places.dart';
 import 'package:baraldilist/models/place.dart';
 import 'package:flutter/material.dart';
@@ -15,5 +17,13 @@ class Places with ChangeNotifier {
 
   Place byIndex(int i) {
     return _items.values.elementAt(i);
+  }
+
+  void put(Place place) {
+    if (place == null) {
+      return;
+    }
+
+    notifyListeners();
   }
 }

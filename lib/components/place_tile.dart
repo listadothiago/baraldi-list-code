@@ -14,7 +14,7 @@ class PlaceTile extends StatelessWidget {
     return ListTile(
         leading: placeImg,
         title: Text(place.placename),
-        subtitle: Text(place.headline),
+        subtitle: Text(place.tagline),
         trailing: Container(
           width: 100,
           child: Row(

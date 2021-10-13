@@ -22,19 +22,18 @@ class PlaceList extends StatelessWidget {
             ),
             Container(
               padding: const EdgeInsets.all(8.0),
-              child: Text('latest'),
+              child: Text('baraldilist'),
             )
           ],
         ),
         //title: Text(widget.title),
-        /*
+/*
         actions: <Widget>[
           IconButton(
-            icon: Icon(Icons.add),
+            icon: Icon(Icons.map),
             onPressed: () {},
           ),
-        ],
-        */
+        ],*/
       ),
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {},
