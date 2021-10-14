@@ -42,7 +42,8 @@ class PlaceList extends StatelessWidget {
         onPressed: () {
           places.put(Place(
             placename: 'Test Place',
-            placeImgUrl: 'https://pixabay.com/images/id-336505/',
+            placeImgUrl:
+                'https://upload.wikimedia.org/wikipedia/commons/7/78/City_Lights_Bookstore.jpg',
             tagline: 'This is just a test!',
           ));
         },
