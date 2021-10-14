@@ -4,6 +4,9 @@ import 'package:baraldilist/provider/places.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
+import 'package:location/location.dart';
+
+Location location = new Location();
 
 class PlaceList extends StatelessWidget {
   @override
@@ -36,7 +39,13 @@ class PlaceList extends StatelessWidget {
         ],*/
       ),
       floatingActionButton: FloatingActionButton.extended(
-        onPressed: () {},
+        onPressed: () {
+          places.put(Place(
+            placename: 'Test Place',
+            placeImgUrl: 'https://pixabay.com/images/id-336505/',
+            tagline: 'This is just a test!',
+          ));
+        },
         label: const Text("share a place"),
         icon: const Icon(Icons.add_location_alt_sharp),
         backgroundColor: Colors.amber,
