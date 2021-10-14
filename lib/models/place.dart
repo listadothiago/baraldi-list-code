@@ -4,7 +4,7 @@ import 'package:location/location.dart';
 class Place {
   final String id;
   final String placename;
-  final List location;
+  final String location;
   final String phonenumber;
   final String password;
   final String placeImgUrl;
@@ -13,7 +13,7 @@ class Place {
 
   const Place(
       {this.placename = 'none',
-      this.location = const [0, 0],
+      this.location = 'Location unknown.',
       this.placeImgUrl = 'none',
       this.phonenumber = 'Phone number unknown.',
       this.password = 'not set',
